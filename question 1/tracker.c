@@ -73,6 +73,7 @@ static void discard_oldest() {
     list.head = old->next;
     if (list.head) list.head->prev = NULL;
     else list.tail = NULL;
+    if (active == old) active = list.head;
     free(old);
     list.size--;
 }
