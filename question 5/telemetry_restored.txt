@@ -1,0 +1,7 @@
+Temperature: 22.5 C
+Humidity: 48%
+Battery: 87%
+ALERT: None
+Temperature: 22.6 C
+Humidity: 47%
+Battery: 86%
